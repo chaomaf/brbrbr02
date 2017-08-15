@@ -1,0 +1,19 @@
+PODS:
+  - UMengUShare/Core (6.4.5):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.5)
+  - UMengUShare/Social/ReducedWeChat (6.4.5):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.5):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+
+DEPENDENCIES:
+  - UMengUShare/Social/WeChat (~> 6.4.5)
+
+SPEC CHECKSUMS:
+  UMengUShare: a5711c54e640b04e3048e931d2b88d50f9cfa55c
+
+PODFILE CHECKSUM: 6572c33e2c345d2762db7199d445cfd6cb991ab0
+
+COCOAPODS: 1.2.1
